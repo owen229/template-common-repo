@@ -1,7 +1,7 @@
 ﻿<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/owen-mediland/template-repository">
+  <a href="https://github.com/owen229/template-common-repo">
     <img src="https://owenbucket.owencheng.com/github_template_logo.png" alt="Logo" width="80" height="80">   
   </a>
 
@@ -10,7 +10,7 @@
   <p align="center">
     [REPOSITORY_DESCRIPTION]
     <br />
-    <a href="https://github.com/owen-mediland/template-repository"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/owen229/template-common-repo"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <img src="https://img.shields.io/badge/release-v0.0.0.1-2d94cc"alt="release">	
@@ -113,7 +113,7 @@
 
 [USERNAME] - [EMAIL]
 
-Project Link: [https://github.com/owen-mediland/template-repository](https://github.com/owen-mediland/template-repository)
+Project Link: [https://github.com/owen229/template-common-repo](https://github.com/owen229/template-common-repo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
