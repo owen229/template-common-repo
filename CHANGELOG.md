@@ -1,15 +1,16 @@
-# 更新日誌
+# Changelog
 
-專案的版本更新內容會被記錄在這個檔案
+All notable changes to this project will be documented in this file.
 
-更新日誌的格式將會基於 [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2017-07-23
+## [0.0.1] - 2024-11-07
+
 ### Added
-- 專案結構資料夾（build、doc、src、tools）
+
+- 專案結構資料夾（build、docs、src、tools）
 - `README.md`
-- `LICENSE.md`
-- `CONTRIBUTING.md`
 - `CHANGELOG.md`
 - `.gitignore`
 - `.gitattributes`

@@ -1,88 +1,137 @@
-﻿# mhat-common-boilerplate-repo
+﻿<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/owen-mediland/template-repository">
+    <img src="https://owenbucket.owencheng.com/github_template_logo.png" alt="Logo" width="80" height="80">   
+  </a>
 
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/alantsai/mhat-common-boilerplate-repo?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+<h2 align="center">template-repository</h3>
 
-這個專案的目的是提供一個template，方便建立新專案的時候，包含需要的最基本資訊。
+  <p align="center">
+    [REPOSITORY_DESCRIPTION]
+    <br />
+    <a href="https://github.com/owen-mediland/template-repository"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <img src="https://img.shields.io/badge/release-v0.0.0.1-2d94cc"alt="release">	
+	<img src="https://img.shields.io/badge/.net%20core-8.0-9c3bd1"alt="release">
+	<img src="https://img.shields.io/badge/author-Owen%20Cheng-11d94d"alt="release">
+  </p>
+</div>
 
-每一個資料夾或者檔案的作用詳細說明可以參考我的部落格[該怎麼開專案的資料夾結構？每個專案應該要有的資料夾結構和檔案](http://to.alantsai.net/20170723-blog-github)
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>        
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-在使用的時候，quote (>作為開頭的文字)都可以刪掉，那些是說明用途。
+<!-- ABOUT THE PROJECT -->
 
-> 這個部分的內容主要簡短介紹這個專案的目的。有些時候會在這個部分放上一些標章（例如建制情況等）和專案的logo。
+## About The Project
 
-## 安裝 (install)
+關於此專案: [REPOSITORY_DESCRIPTION]
 
-這個專案並無安裝的前置條件
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-> 這個部分寫的是開始使用的前置條件 - 例如用`npm`或者`nuget`安裝的指令。
+## Built With
 
-## 快速使用 (getting started)
+- ![CSharp][CSharp-icon]
+- ![dotnet][dotnet-icon]
+- ![Visual Studio][VisualStudio-icon]
+- ![Windows][Windows-icon]
 
-使用這個專案有兩種模式：  
-1. 不包含這個專案的歷史記錄
-2. 包含這個專案的歷史記錄
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### 不包含這個專案的歷史記錄
+<!-- Prerequisites -->
 
-可以直接下載最新版本的zip檔案：
+## Prerequisites
 
-[下載最新的zip](https://github.com/alantsai/mhat-common-boilerplate-repo/archive/master.zip)
+開發環境要求
 
-或者可以 ：
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-1. clone專案
-2. 刪除.git資料夾
-3. 重新git init（新的版控記錄）
+<!-- OVERALL DESCRIPTION -->
 
-Powershell指令來說就是：
+## Overall Description
 
-```powershell
-git clone https://github.com/alantsai/mhat-common-boilerplate-repo.git
-cd mhat-common-boilerplate-repo
-rm .git -Recurse -Force
-git init
-git add -A
-git commit -m "init project"
-```
+專案整體描述 : 使用者需求、假設與關聯
 
-### 包含這個專案的歷史記錄
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-操作步驟
+<!-- SRS -->
 
-1. clone專案
-2. 刪掉origin的位置
-3. 調整origin到新的位置
+## Software Requirements Specification
 
-```powershell
-git clone https://github.com/alantsai/mhat-common-boilerplate-repo.git
-cd mhat-common-boilerplate-repo
-git remote rm origin
-git remote add origin {new repo url}
-```
+專案需求說明
 
-> 這個部分告訴大家如何開始使用你的這個專案。一般來說提供一個hello world範例之後，會提供鏈接到詳細的doc說明。
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 幫助 (support)
+<!-- SDS -->
 
-如果有任何問題，可以透過[開issue](https://github.com/alantsai/mhat-common-boilerplate-repo/issues/new) 或者 可以在 [gitter](https://gitter.im/alantsai/mhat-common-boilerplate-repo?utm_source=share-link&utm_medium=link&utm_campaign=share-link)上面發問。
+### Software Detailed Design Specification
 
-## 參與修改 (Contributing)
+專案細部設計說明
 
-歡迎任何形式的參與，更多資訊請參考  
-[CONTRIBUTING.md](CONTRIBUTING.md)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 貢獻者 (Contributors)
+<!-- REFERENCE FRAMEWORKS & TOOLS -->
 
-> 如果有任何要感謝的貢獻者，可以專門寫到 `CONTRIBUTORS.md` 檔案，或者直接在這個檔案裡面列出來。
+## Reference Frameworks & Tools
 
-## 作者 (Authors)
+參考框架與工具
 
-> 假設需要列出專案的作者（和版權有關），那麼可以列在 `AUTHORS.md` 裡面。
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 感謝 (Acknowledgements)
+<!-- SYSTEM ENVIRONMENT -->
 
-> 如果專案有使用到一些第三方的library或者一些資源想要感謝可以寫在這裡，或者如果內容比較多可以列在 `ACKNOWLEDGMENTS.md` 裡面。
+## System Environment
 
-## 授權 (License)
+系統環境說明
 
-本專案屬於 MIT License，更多資訊請看 [LICENSE.md](LICENSE.md)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+[USERNAME] - [EMAIL]
+
+Project Link: [https://github.com/owen-mediland/template-repository](https://github.com/owen-mediland/template-repository)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+- []()
+- []()
+- []()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[product-screenshot]: https://owenbucket.owencheng.com/github_template_screenshot.png
+[CSharp-icon]: https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white
+[dotnet-icon]: https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff
+[VisualStudio-icon]: https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white
+[Windows-icon]: https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white
